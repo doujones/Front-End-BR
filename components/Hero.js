@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Styles from './Styles/Styles'
-import styled from 'styled-components'
 
 export default class Hero extends Component {
  

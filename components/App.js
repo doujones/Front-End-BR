@@ -12,7 +12,7 @@ const App = () => {
     1) User logs into the Home Page
     </p>
     <Header/>
-    <p style={{marginLeft: "12%", marginBottom: ".4em"}} className="para1">
+    <p style={{marginLeft: '12%', marginBottom: ".4em"}} className="para1">
     2) User clicks on Create New Task link
     </p>
     <Searchbar/>
