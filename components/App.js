@@ -3,6 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header'
 import Searchbar from '../components/Boxes/boxWrapper'
 import Hero from './Hero';
+import Table from '../components/Comparison/table1'
+import Scrollbar from 'react-smooth-scrollbar';
+
+
+
+var data = [
+  {Task: '', Status: '', Description: ''},
+  {Task: '', Status: '', Description: ''},
+  {Task: '', Status: '', Description: ''},
+  {Task: '', Status: '', Description: ''},
+  {Task: '', Status: '', Description: ''},
+  
+];
 
 
 const App = () => {
@@ -17,6 +30,11 @@ const App = () => {
     </p>
     <Searchbar/>
     <Hero/>
+    <Scrollbar>
+    <Table data={data}>
+    <p className="Table-Header">Monitor Tasks</p>
+    </Table>
+    </Scrollbar>
   </>
  
  
